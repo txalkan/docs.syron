@@ -1,9 +1,11 @@
-# 🖌 Getting started
+# :zap: Syron U$D
 
-## Welcome !
+## What's Syron U$D?
 
-A design system is a product, and similar best practices to product docs apply when documenting a design system. Offering succinct ways to get started is a great way to introduce the concepts of your design system, while empowering folks to use it for their needs.
+Syron U$D, Tyron's groundbreaking stablecoin, lets you keep your BTC and grab USD whenever you want. With Syron, your BTC stays under your control while unlocking dollars for spending or investment. It's a vital part of Tyron's vision, connecting the stability of traditional currencies with Bitcoin's growth potential for a more inclusive financial world.
 
 {% hint style="info" %}
-Use this template to introduce the concept of your design system. Outlining basic principles and ways of working to get every team on the same page.
+Picture this: you've got 1 BTC, and you want $10k for something cool. Syron lets you keep your BTC while tapping into $10k whenever you need. You stay in control of your BTC's value, letting it grow while still having dollars for whatever you want.
 {% endhint %}
+
+{% embed url="https://www.tyron.io/dollars/" %}
