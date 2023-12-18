@@ -5,11 +5,11 @@
 ## INTRODUCTION
 
 - [Design Principles](introduction/design-principles.md)
-- [Brand Guidelines](introduction/brand-guidelines.md)
+<!-- - [Brand Guidelines](introduction/brand-guidelines.md)
 - [How updates work](introduction/how-updates-work.md)
-- [Accessibility](introduction/accessibility.md)
+- [Accessibility](introduction/accessibility.md) -->
 
-## IDENTITY
+<!-- ## IDENTITY
 
 - [Logos](identity/logos.md)
 - [Colors](identity/colors.md)
@@ -20,4 +20,4 @@
 
 - [Icons](components/icons.md)
 - [Buttons](components/buttons.md)
-- [Inputs](components/inputs.md)
+- [Inputs](components/inputs.md) -->
