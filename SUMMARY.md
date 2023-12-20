@@ -15,9 +15,10 @@
 - [Colors](identity/colors.md)
 - [Typography](identity/typography.md)
 - [Imagery](identity/imagery.md)
+-->
 
 ## COMPONENTS
 
-- [Icons](components/icons.md)
-- [Buttons](components/buttons.md)
-- [Inputs](components/inputs.md) -->
+- [Token](components/token.md)
+- [Minters](components/minters.md)
+<!-- - [Inputs](components/inputs.md) -->
