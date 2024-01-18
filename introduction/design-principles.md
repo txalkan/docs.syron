@@ -4,6 +4,8 @@
 
 Self-Sovereign Identity (SSI) empowers users by providing complete control over their data, including digital assets like Bitcoin-native tokens. Through the decentralization of identity management, enhanced privacy and security are achieved. Your BRC-20 collateral is securely locked in an SSI Vault, ensuring it stays under your control.
 
+To ensure true user ownership and sovereignty, there are only gas fees. Vault maintenance, being on the Bitcoin network, incurs no fees. Creating Syron U$ dollars is fee-free, requiring only sufficient collateral. However, liquidation can occur if collateral falls below a threshold.
+
 ## :bank: Bitcoin Network
 
 Bitcoin stands out as the most secure network, being a decentralized, permissionless, and tamper-resistant platform primarily due to its innovative use of the Proof-of-Work (PoW) consensus mechanism:
