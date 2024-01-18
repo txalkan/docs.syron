@@ -1,6 +1,6 @@
 # Table of contents
 
-- [:zap: Syron U$D](README.md)
+- [:zap: Syron U$ Dollar (SU$D)](README.md)
 
 ## INTRODUCTION
 
@@ -20,5 +20,5 @@
 ## COMPONENTS
 
 - [Token](components/token.md)
-- [Minters](components/minters.md)
+- [SSI Vault](components/ssi-vault.md)
 <!-- - [Inputs](components/inputs.md) -->
