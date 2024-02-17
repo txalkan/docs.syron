@@ -1,6 +1,6 @@
 # Table of contents
 
-- [:zap: Syron U$ Dollar (SU$D)](README.md)
+- [:zap: Syron U$ Dollar](README.md)
 
 ## INTRODUCTION
 

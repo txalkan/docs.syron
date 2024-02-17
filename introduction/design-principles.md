@@ -2,9 +2,13 @@
 
 ## :zap: Self-Sovereign Identity
 
-Self-Sovereign Identity (SSI) empowers users by providing complete control over their data, including digital assets like Bitcoin-native tokens. Through the decentralization of identity management, enhanced privacy and security are achieved. Your BRC-20 collateral is securely locked in an SSI Vault, ensuring it stays under your control.
+Self-Sovereign Identity (SSI) revolutionizes digital identity by empowering users with complete control over their data and digital assets, including Bitcoin-native tokens. In the SSI paradigm, users are both the subject and controller of their identity, eliminating the possibility of third-party control over user funds. This decentralized approach to identity management not only enhances privacy and security but also ensures that users retain full ownership and control over their assets.
 
-To ensure true user ownership and sovereignty, there are only gas fees. Vault maintenance, being on the Bitcoin network, incurs no fees. Creating Syron U$ dollars is fee-free, requiring only sufficient collateral. However, liquidation can occur if collateral falls below a threshold.
+In the Syron ecosystem, users' BTC collateral is securely locked within an SSI Vault, guaranteeing that it remains under their sole control. Unlike traditional financial systems where intermediaries can intervene, Syron's SSI Vaults uphold true user ownership and sovereignty. Importantly, the protocol incurs only bitcoin gas fees, ensuring that users retain control over their assets without additional costs.
+
+Vault maintenance in Syron is fee-free, further reinforcing the principle of user ownership. Additionally, minting Syron U$ dollars requires only the existence of sufficient collateral. This fee-free minting process underscores Syron's commitment to accessibility and user empowerment, allowing users to create stablecoins effortlessly.
+
+However, it's crucial to note that liquidation can occur if the collateral within a user's SSI Vault falls below a certain threshold. This mechanism ensures the stability and integrity of Syron by maintaining appropriate collateralization levels. By balancing user autonomy with protocol stability, Syron creates a secure and transparent environment for users to engage with their assets and participate in decentralized finance.
 
 ## :bank: Bitcoin Network
 
@@ -18,14 +22,14 @@ Bitcoin stands out as the most secure network, being a decentralized, permission
 
 ### Bitcoin-Native Assets
 
-The first supported collateral includes tokens compliant with the [BRC-20 standard](https://layer1.gitbook.io/layer1-foundation/protocols/brc-20). Additionally, the SU$D token itself will adhere to this standard.
+The SU$D token ensures secure token transfers by leveraging the Bitcoin Ordinals protocol, adhering to the [BRC-20 standard](https://layer1.gitbook.io/layer1-foundation/protocols/brc-20) for compatibility.
 
-Syron is advancing its development on the Bitcoin layer-1 network, utilizing [Discreet Log Contract (DLC)](https://github.com/discreetlogcontracts/dlcspecs) technology in conjunction with [Pay-to-Taproot (P2TR)](https://river.com/learn/terms/p/pay-to-taproot-p2tr/) scripts.
+Syron prioritizes development on the Bitcoin layer-1 network, employing various technologies for implementation. This includes utilizing the [Internet Computer Protocol](https://internetcomputer.org) and considering future integration with [Discreet Log Contract (DLC)](https://github.com/discreetlogcontracts/dlcspecs) technology and [Pay-to-Taproot (P2TR)](https://river.com/learn/terms/p/pay-to-taproot-p2tr/) Bitcoin scripts.
 
 ### :bison: Bison's ZK-Rollup
 
-The ZK-rollup by [Bison Labs](https://bisonlabs.io) is set to play a crucial role in enhancing Bitcoin's scalability. Zero-knowledge technology has the potential to significantly boost the network's transaction processing capacity without compromising security. This is achieved by grouping multiple layer-2 transactions into a single proof, which is then validated on the main Bitcoin layer.
+The ZK-rollup solution by [Bison Labs](https://bisonlabs.io) is in development to play a pivotal role in enhancing Bitcoin's scalability. Leveraging zero-knowledge technology, it holds the potential to significantly bolster the network's transaction processing capacity while maintaining a trustless setup. This is achieved by consolidating multiple layer-2 transactions into a single proof, which is then validated on the main Bitcoin layer.
 
-ZK-rollups, therefore, enable faster and more cost-effective transactions, optimizing specific functionalities and use cases like stablecoins. This approach effectively addresses Bitcoin's throughput and scalability challenges without sacrificing security, making them an indispensable solution for the future of cryptocurrencies. In tackling Bitcoin's scalability hurdles, ZK-rollups emerge as a vital component, ensuring the network's growth while upholding security standards.
+ZK-rollups facilitate faster and more cost-effective transactions, optimizing specific functionalities and use cases like stablecoins. By addressing Bitcoin's throughput and scalability challenges without compromising on permissionless innovation, they emerge as an indispensable solution for the future of cryptocurrencies. In tackling Bitcoin's scalability hurdles, ZK-rollups can be essential components, ensuring the network's growth while adhering to Bitcoin standards.
 
-Consequently, Syron U$ dollars will seamlessly integrate on Bison to enable instant liquidity. This objective will be realized through a SU$D-based decentralized exchange where BRC-20 tokens and bitcoin will be available, with liquidity providers acting as the governing body of the protocol.
+As part of this advancement, Syron U$ dollars will seamlessly integrate with Bison as a BRC-20 token to provide instant liquidity for Bitcoin DeFi. To complement this vision of decentralized finance powered by Bitcoin, a SU$D-based decentralized exchange would present exciting opportunities for liquidity provision and farming.

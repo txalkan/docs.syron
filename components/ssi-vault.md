@@ -1,10 +1,10 @@
 # SSI Vault
 
-Syron's SU$D stablecoin is generated within a user-owned SSI Vault. This smart account takes care of safely holding the collateral and it serves as the home for the stablecoin redemption and liquidation code. These vaults independently track user balances in a permissionless manner.
+Syron's SU$D stablecoin management occurs within user-owned SSI Vaults. These smart accounts securely hold the collateral and serve as the hub for stablecoin minting, burning, and liquidation transactions. These vaults autonomously track user balances in a permissionless manner and are Bitcoin-native, each possessing its own layer-1 address.
 
 For more detailed design information, refer to [Bitcoin-Native Assets](../introduction/design-principles.md#bitcoin-native-assets).
 
-<!-- On Bison, minter SSI accounts (MISAs) are identified as smart contracts with the special `MINTER_ROLE` granted by the Access Control system. This allows for tailored U$D minting functionality per MISA.
+<!-- Minter SSI accounts (MISAs) are identified as smart contracts with the special `MINTER_ROLE` granted by the Access Control system. This allows for tailored U$D minting functionality per MISA.
 
 ```
 uint256 private _vaultSupply;
@@ -17,6 +17,4 @@ mapping(address account => uint256) private _vaults;
 
 ## Oracles
 
-For an SSI Vault to function properly a reliable source of truth is essential. Syron will obtain these information from multiple off-chain data points.
-
-Information can also originate from on-chain data, such as decentralized exchanges and DeFi applications. In this scenario, layer-2 vaults could read the required data at the time of the transaction in an atomic manner.
+To ensure the stability of the stablecoin, Syron relies on accurate data sourced from multiple off-chain data points managed by the ICP's [Exchange Rate Canister](https://wiki.internetcomputer.org/wiki/Exchange_rate_canister). Additionally, on-chain data from decentralized exchanges and DeFi applications can contribute to price discovery. Layer-2 vaults could efficiently access this on-chain data at the time of the transaction, guaranteeing that the information used for stablecoin operations is up-to-date and reliable.
