@@ -1,24 +1,17 @@
 # Table of contents
 
-- [:zap: Syron U$ Dollar](README.md)
+* [Syron U$ Dollar](README.md)
 
 ## INTRODUCTION
 
-- [Design Principles](introduction/design-principles.md)
-<!-- - [Brand Guidelines](introduction/brand-guidelines.md)
-- [How updates work](introduction/how-updates-work.md)
-- [Accessibility](introduction/accessibility.md) -->
-
-<!-- ## IDENTITY
-
-- [Logos](identity/logos.md)
-- [Colors](identity/colors.md)
-- [Typography](identity/typography.md)
-- [Imagery](identity/imagery.md)
--->
+* [Design Principles](introduction/design-principles.md)
 
 ## COMPONENTS
 
-- [Token](components/token.md)
-- [SSI Vault](components/ssi-vault.md)
-<!-- - [Inputs](components/inputs.md) -->
+* [Token](components/token.md)
+* [SSI Vault](components/ssi-vault.md)
+
+***
+
+* [Proof of Concept](https://github.com/txalkan/syron-icp)
+* [User Interface](https://github.com/txalkan/syron-ssi)
