@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Syron: ₿e Your ₿ank](README.md)
+- [₿e Your Own ₿ank](README.md)
 
 ## INTRODUCTION
 

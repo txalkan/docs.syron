@@ -1,4 +1,4 @@
-# Syron: ₿e Your ₿ank
+# ₿e Your Own ₿ank
 
 ![](./ssi_syronU$D_isologotipo_H.png)
 
@@ -11,7 +11,7 @@ Being your own bank means you can leverage your bitcoin (BTC) holdings to mint S
 The SSI Protocol ensures that your collateral is securely held within your control in your SSI Vault. This setup allows you to mint SU$D tokens for various purposes, whether for spending or investment. Syron is a Bitcoin-native stablecoin that uses the Ordinals Protocol to combine the stability of the U.S. dollar with Bitcoin's growth potential, contributing to the creation of a more inclusive financial world.
 
 {% hint style="info" %}
-Picture this: you've got 0.1 BTC and want $2k to join a DEX as a liquidity provider. Syron enables you to keep your BTC safe and get dollars whenever needed. You retain control over your bitcoin's value, allowing it to appreciate, while also having dollars accessible for DeFi purposes.
+Picture this: you've got 1 BTC and want $20k to join a DEX as a liquidity provider. Tyron's stablecoin metaprotocol lets you keep your BTC safe and get dollars straight away. You retain control over your bitcoin's value, allowing it to appreciate while also having dollars accessible for any purpose like DeFi.
 {% endhint %}
 
-{% embed url="https://www.tyron.io/dollars/" %}
+{% embed url="https://www.tyron.io/vision/" %}
