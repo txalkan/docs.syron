@@ -9,7 +9,7 @@
 ## COMPONENTS
 
 - [Token](components/token.md)
-- [SSI Vault](components/ssi-vault.md)
+- [Safety Deposit Box](components/ssi-box.md)
 
 ## RESOURCES
 
