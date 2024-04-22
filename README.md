@@ -1,4 +1,4 @@
-# ₿e Your Own ₿ank
+# Be Your Own ₿ank
 
 ![](./ssi_syronU$D_isologotipo_H.png)
 

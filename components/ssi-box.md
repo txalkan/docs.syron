@@ -1,6 +1,8 @@
-# Safety Deposit Box
+# Safety Deposit ₿ox
 
-Tyron's SU$D stablecoin management occurs within user-owned safety deposit boxes. These smart accounts securely hold the collateral and serve as the hub for stablecoin minting, burning, and liquidation transactions. These safety deposit boxes autonomously track user balances in a permissionless manner and are Bitcoin-native, each possessing its own layer-1 address.
+Tyron's SU$D stablecoin management occurs within user-owned safety deposit boxes (SD₿s). These smart accounts securely hold the collateral and serve as the hub for stablecoin minting, burning, and liquidation transactions.
+
+SD₿s autonomously track user balances in a permissionless and trustless manner and are native to Bitcoin. Each SD₿ has its own Layer-1 address, allowing users to monitor their SD₿ holdings at any time using their preferred Bitcoin block explorer. This native integration with Bitcoin ensures seamless interaction with the Bitcoin ecosystem.
 
 For more detailed design information, refer to [Bitcoin-Native Assets](../introduction/design-principles.md#bitcoin-native-assets).
 
@@ -17,4 +19,4 @@ mapping(address account => uint256) private _vaults;
 
 ## Oracles
 
-To ensure the stability of the stablecoin, Syron relies on accurate data sourced from multiple off-chain data points managed by the ICP's [Exchange Rate Canister](https://wiki.internetcomputer.org/wiki/Exchange_rate_canister). Additionally, on-chain data from decentralized exchanges and DeFi applications can contribute to price discovery. Safety deposit boxes can efficiently access this on-chain data at the time of the transaction, guaranteeing that the information used for stablecoin operations is up-to-date and reliable.
+To ensure the stability of the stablecoin, Syron relies on accurate data sourced from multiple off-chain data points managed by the ICP's [Exchange Rate Canister](https://wiki.internetcomputer.org/wiki/Exchange_rate_canister). Additionally, on-chain data from decentralized exchanges and DeFi applications can contribute to price discovery. Safety deposit boxes could efficiently access this on-chain data at the time of the transaction, guaranteeing that the information used for stablecoin operations is up-to-date and reliable.

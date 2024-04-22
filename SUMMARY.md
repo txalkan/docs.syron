@@ -1,6 +1,6 @@
 # Table of contents
 
-- [₿e Your Own ₿ank](README.md)
+- [Be Your Own ₿ank](README.md)
 
 ## INTRODUCTION
 
@@ -10,6 +10,7 @@
 
 - [Token](components/token.md)
 - [Safety Deposit Box](components/ssi-box.md)
+- [Minting](components/minting.md)
 
 ## RESOURCES
 
