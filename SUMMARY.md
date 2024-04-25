@@ -9,7 +9,7 @@
 ## COMPONENTS
 
 - [Token](components/token.md)
-- [Safety Deposit Box](components/ssi-box.md)
+- [Safety Deposit ₿ox](components/ssi-box.md)
 - [Minting](components/minting.md)
 
 ## RESOURCES
