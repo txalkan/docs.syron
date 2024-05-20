@@ -1,7 +1,5 @@
 # Minting
 
-![](./syron_minting.png)
-
 {% hint style="info" %}
 **Good to know:** Minting is the process of withdrawing Syron U$ dollars according to the Tyron's stablecoin metaprotocol code.
 {% endhint %}
@@ -10,11 +8,11 @@ Our innovative approach to Bitcoin-native stablecoins aims to empower users to u
 
 On Tyron, this paradigm is realized through safety deposit boxes (SD₿), each independently holding the BTC collateral (one ₿ox per user). This setup ensures users maintain complete control over their assets without reliance on third parties.
 
+![](./syron_minting.png)
+
 ## Syron Bitcoin Minter
 
 The Syron minter is an Internet Computer canister with its own Pay-to-Witness-Public-Key-Hash (P2WPKH) Bitcoin address. This wallet holds Syron U$ dollars (SU$D) as BRC-20 [tokens](./token.md) corresponding to the premine amount.
-
-The Syron minter is an Internet Computer canister with its own Pay-to-Witness-Public-Key-Hash (P2WPKH) Bitcoin address. This wallet holds Syron U$ dollars (SU$D) as BRC-20 .
 
 The Syron stablecoin includes two ledgers: one to record BTC collateral and another one for SU$D balances, including the details about the dollars available for withdrawal.
 

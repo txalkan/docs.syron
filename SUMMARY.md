@@ -11,6 +11,7 @@
 - [Safety Deposit ₿ox](components/ssi-box.md)
 - [Token](components/token.md)
 - [Minting](components/minting.md)
+- [Burning](components/burning.md)
 
 ## RESOURCES
 
