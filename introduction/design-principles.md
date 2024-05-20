@@ -8,7 +8,7 @@ Tyron aims to enable users to leverage their Bitcoin holdings in a decentralized
 
 In the Tyron dApp, each user's BTC collateral is securely locked in their own SD₿, guaranteeing sole control. Each SD₿ possesses its own Bitcoin address, with its information transparently available through any block explorer. This security measure stands in contrast to traditional systems, where intermediaries often have the ability to intervene.
 
-To mint Syron U$ dollars, users only need sufficient collateral in their SD₿. This process aligns with Tyron's goal of accessibility and user empowerment, enabling users to freely withdraw stablecoins while retaining control of their BTC collateral.
+To mint Syron US dollars, users only need sufficient collateral in their SD₿. This process aligns with Tyron's goal of accessibility and user empowerment, enabling users to freely withdraw stablecoins while retaining control of their BTC collateral.
 
 However, if a user's BTC collateral falls below a certain threshold, then liquidation may occur. This mechanism maintains Syron's stability by ensuring adequate collateralization. Tyron aims to balance user autonomy with protocol stability, providing a secure and transparent platform for users to optimize their assets' capital efficiency and engage in decentralized finance.
 
@@ -24,14 +24,14 @@ Bitcoin stands out as the most secure network, being a decentralized, permission
 
 ### Bitcoin-Native Assets
 
-The SU$D token ensures secure token transfers by leveraging the Bitcoin Ordinals protocol, adhering to the [BRC-20 standard](https://layer1.gitbook.io/layer1-foundation/protocols/brc-20) for compatibility.
+The SUSD stablecoin ensures secure token transfers by leveraging the Bitcoin Ordinals protocol, adhering to the [BRC-20 meta-protocol](https://layer1.gitbook.io/layer1-foundation/protocols/brc-20) for compatibility.
 
 Syron prioritizes development on the Bitcoin layer-1 network, employing various technologies for implementation. This includes utilizing the [Internet Computer Protocol](https://internetcomputer.org) and considering future integration with [Discreet Log Contract (DLC)](https://github.com/discreetlogcontracts/dlcspecs) technology and [Pay-to-Taproot (P2TR)](https://river.com/learn/terms/p/pay-to-taproot-p2tr/) Bitcoin scripts.
 
 <!-- ### :bison: Bison's ZK-Rollup
 
-The ZK-rollup solution by [Bison Labs](https://bisonlabs.io) is in development to play a pivotal role in enhancing Bitcoin's scalability. Leveraging zero-knowledge technology, it holds the potential to significantly bolster the network's transaction processing capacity while maintaining a trustless setup. This is achieved by consolidating multiple layer-2 transactions into a single proof, which is then validated on the main Bitcoin layer.
+Layer-2 solutions are in development to play a pivotal role in enhancing Bitcoin's scalability. Leveraging tools like zero-knowledge technology, they hold the potential to significantly bolster the Bitcoin network's transaction processing capacity while maintaining a trustless setup. This can be achieved by consolidating multiple layer-2 transactions into a single proof, which is then validated on the main Bitcoin layer.
 
 ZK-rollups facilitate faster and more cost-effective transactions, optimizing specific functionalities and use cases like stablecoins. By addressing Bitcoin's throughput and scalability challenges without compromising on permissionless innovation, they emerge as an indispensable solution for the future of cryptocurrencies. In tackling Bitcoin's scalability hurdles, ZK-rollups can be essential components, ensuring the network's growth while adhering to Bitcoin standards.
 
-As part of this advancement, Syron U$ dollars will seamlessly integrate with Bison as a BRC-20 token to provide instant liquidity for Bitcoin DeFi. To complement this vision of decentralized finance powered by Bitcoin, a SU$D-based decentralized exchange would present exciting opportunities for liquidity provision and farming. -->
+As part of this advancement, Syron US dollars will seamlessly integrate with L2 platforms token to provide instant liquidity for Bitcoin DeFi. To complement this vision of decentralized finance powered by Bitcoin, a SUSD-based decentralized exchange would present exciting opportunities for liquidity provision and farming. -->

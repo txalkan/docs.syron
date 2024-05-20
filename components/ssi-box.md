@@ -1,12 +1,12 @@
 # Safety Deposit ₿ox
 
-Tyron's SU$D stablecoin management occurs within user-owned safety deposit boxes (SD₿s). These smart accounts securely hold the collateral and serve as the hub for stablecoin minting, burning, and liquidation transactions.
+Syron's stablecoin management occurs within user-owned safety deposit boxes (SD₿s). These smart accounts securely hold the collateral and serve as the hub for stablecoin minting, burning, and liquidation transactions.
 
 SD₿s autonomously track user balances in a permissionless and trustless manner and are native to Bitcoin. Each SD₿ has its own Layer-1 address, allowing users to monitor their SD₿ holdings at any time using their preferred Bitcoin block explorer. This native integration with Bitcoin ensures seamless interaction with the Bitcoin ecosystem.
 
 For more detailed design information, refer to [Bitcoin-Native Assets](../introduction/design-principles.md#bitcoin-native-assets).
 
-<!-- Minter SSI accounts (MISAs) are identified as smart contracts with the special `MINTER_ROLE` granted by the Access Control system. This allows for tailored U$D minting functionality per MISA.
+<!-- Minter SSI accounts (MISAs) are identified as smart contracts with the special `MINTER_ROLE` granted by the Access Control system. This allows for tailored SUSD minting functionality per MISA.
 
 ```
 uint256 private _vaultSupply;
