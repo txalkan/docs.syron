@@ -59,3 +59,5 @@ TyronDAO utilizes the Internet Computer to record ledger balances of BTC deposit
 Additional subaccounts can be employed to account for withdrawals to other blockchain protocols like Bitcoin Runes and Ethereum. Syron ledgers on ICP utilize the minter's principal ID as the accounts' owner with subaccounts made out of the user's Bitcoin wallet and a specific nonce - as mentioned above.
 
 If this transaction fails, the ledger must reflect the unsuccessful withdrawal in the selected protocol. Consequently, users can request it again, and the meta-protocol validates the request by referring to subaccount 2 of pending Syron withdrawals.
+
+{% embed url="https://www.youtube.com/watch?v=-1sWY0-h4ZY" %}
