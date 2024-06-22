@@ -12,6 +12,7 @@
 - [Token](components/token.md)
 - [Minting](components/minting.md)
 - [Burning](components/burning.md)
+- [Liquidation](components/liquidation.md)
 
 ## RESOURCES
 
