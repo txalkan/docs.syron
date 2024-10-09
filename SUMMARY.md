@@ -16,5 +16,5 @@
 
 ## RESOURCES
 
-- [Proof of Concept](https://github.com/txalkan/syron-icp)
-- [User Interface](https://github.com/txalkan/syron-ssi)
+- [Launch dApp](https://tyron.io)
+- [Proof of Concept](https://github.com/txalkan/tyron-icp)
