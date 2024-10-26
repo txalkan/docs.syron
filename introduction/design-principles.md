@@ -4,11 +4,11 @@
 
 Self-Sovereign Identity (SSI) gives users complete control over their digital identity and assets, including cryptocurrencies. In SSI, users manage their identity without relying on third parties, enhancing privacy and security.
 
-Tyron aims to enable users to leverage their Bitcoin holdings in a decentralized manner. This paradigm means that users control their digital assets without depending on centralized systems. Syron implements this through Safety Deposit ₿oxes (SD₿s), where users' Bitcoin collateral is securely stored.
+Tyron aims to enable users to leverage their bitcoin holdings in a decentralized manner. This paradigm means that users control their digital assets without depending on centralized systems. Tyron implements this through a user-owned Safety Deposit ₿ox (SDB), where the BTC collateral is securely stored.
 
-In the Tyron dApp, each user's BTC collateral is securely locked in their own SD₿, guaranteeing sole control. Each SD₿ possesses its own Bitcoin address, with its information transparently available through any block explorer. This security measure stands in contrast to traditional systems, where intermediaries often have the ability to intervene.
+In the Tyron dApp, each user's BTC collateral is securely locked in a separate SDB, guaranteeing sole management and control. Each SDB possesses its own Bitcoin address, with its information transparently available through any block explorer. This security measure stands in contrast to traditional systems, where intermediaries often have the ability to intervene.
 
-To mint Syron US dollars, users only need sufficient collateral in their SD₿. This process aligns with Tyron's goal of accessibility and user empowerment, enabling users to freely withdraw stablecoins while retaining control of their BTC collateral.
+To mint Syron US dollars, users only need BTC collateral in their SDB. This process aligns with Tyron's goal of accessibility and user empowerment, enabling users to freely withdraw stablecoins while retaining control of their BTC collateral.
 
 However, if a user's BTC collateral falls below a certain threshold, then liquidation may occur. This mechanism maintains Syron's stability by ensuring adequate collateralization. Tyron aims to balance user autonomy with protocol stability, providing a secure and transparent platform for users to optimize their assets' capital efficiency and engage in decentralized finance.
 
@@ -24,7 +24,7 @@ Bitcoin stands out as the most secure network, being a decentralized, permission
 
 ### Bitcoin-Native Assets
 
-The SUSD stablecoin ensures secure token transfers by leveraging the Bitcoin Ordinals protocol, adhering to the [BRC-20 meta-protocol](https://layer1.gitbook.io/layer1-foundation/protocols/brc-20) for compatibility.
+The SYRON stablecoin ensures secure token transfers by leveraging the Bitcoin Ordinals protocol, adhering to the [BRC-20 meta-protocol](https://layer1.gitbook.io/layer1-foundation/protocols/brc-20) for compatibility.
 
 Syron prioritizes development on the Bitcoin layer-1 network, employing various technologies for implementation. This includes utilizing the [Internet Computer Protocol](https://internetcomputer.org) and considering future integration with [Discreet Log Contract (DLC)](https://github.com/discreetlogcontracts/dlcspecs) technology and [Pay-to-Taproot (P2TR)](https://river.com/learn/terms/p/pay-to-taproot-p2tr/) Bitcoin scripts.
 
@@ -34,4 +34,4 @@ Layer-2 solutions are in development to play a pivotal role in enhancing Bitcoin
 
 ZK-rollups facilitate faster and more cost-effective transactions, optimizing specific functionalities and use cases like stablecoins. By addressing Bitcoin's throughput and scalability challenges without compromising on permissionless innovation, they emerge as an indispensable solution for the future of cryptocurrencies. In tackling Bitcoin's scalability hurdles, ZK-rollups can be essential components, ensuring the network's growth while adhering to Bitcoin standards.
 
-As part of this advancement, Syron US dollars will seamlessly integrate with L2 platforms token to provide instant liquidity for Bitcoin DeFi. To complement this vision of decentralized finance powered by Bitcoin, a SUSD-based decentralized exchange would present exciting opportunities for liquidity provision and farming. -->
+As part of this advancement, Syron US dollars will seamlessly integrate with L2 platforms to provide instant liquidity for Bitcoin DeFi. To complement this vision of decentralized finance powered by Bitcoin, a SYRON-based decentralized exchange would present exciting opportunities for liquidity provision and farming. -->

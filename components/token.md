@@ -1,6 +1,6 @@
 # Token
 
-The Syron US dollar (SUSD) is a stablecoin crafted as a digital fungible token, seamlessly usable on the Bitcoin network, Internet Computer and other platforms.
+The Syron US dollar (SYRON) is a stablecoin crafted as a digital fungible token, seamlessly usable on the Bitcoin network, Internet Computer and other platforms.
 
 {% hint style="info" %}
 **What is a fungible token?**
@@ -18,27 +18,23 @@ As a Bitcoin-native asset, Syron's first implementation adheres to the [BRC-20 s
 
 This fungible token type is based on the Ordinals protocol and thus requires inscriptions.
 
-When making a BTC deposit into a Safety Deposit ₿ox, a transfer of SUSD shall be inscribed to the SBM address. When the withdrawal of dollars is submitted, the transfer inscription is given to the user's Bitcoin wallet, the SSI that owns the ₿ox.
+When making a BTC deposit into a Safety Deposit ₿ox, an inscribe-transfer UTXO shall be sent to the Syron Minter wallet. When the withdrawal of dollars occurs, this inscribe-transfer UTXO is sent to the user's Bitcoin wallet.
 
 ```javascript
 const inscription: InscribeData = await api.createTransfer({
-  receiveAddress: sbm_addr,
+  receiveAddress: syron_minter,
   feeRate,
   satoshis: 546,
-  safetyDepositBox: box_addr,
+  depositAddress: sdb,
   deposit: collateral,
-  brc20Ticker: tck,
+  brc20Ticker: SYRON,
   brc20Amount: amt,
 });
 
 await api.sendBitcoin(inscription);
 ```
 
-At the time of withdrawal, the SBM uses the above inscription's ID to send the SUSD to the user's wallet.
-
-## Runes
-
-Coming soon!
+At the time of withdrawal, the Syron Minter uses the above inscribe-transfer UTXO to send the SYRON dollars to the user's wallet.
 
 <!-- {% embed url="https://5ccbc373887ca40020446347-geedzbiswp.chromatic.com/iframe.html?id=icon--labels&args=&viewMode=story" %}
 These examples are taken from the excellent [Storybook Example Design System](https://5ccbc373887ca40020446347-geedzbiswp.chromatic.com/?path=/story/icon--labels).

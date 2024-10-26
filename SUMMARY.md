@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Be Your Own ₿ank](README.md)
+- [₿e Your ₿ank](README.md)
 
 ## INTRODUCTION
 
@@ -8,7 +8,7 @@
 
 ## COMPONENTS
 
-- [Safety Deposit ₿ox](components/ssi-box.md)
+- [Safety Deposit ₿ox](components/sdb.md)
 - [Token](components/token.md)
 - [Minting](components/minting.md)
 - [Burning](components/burning.md)
