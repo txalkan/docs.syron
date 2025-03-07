@@ -1,10 +1,10 @@
 # Liquidation
 
 {% hint style="info" %}
-**Good to know:** Liquidation in the context of Syron refers to the process of repaying a debtor's SYRON loan and receiving the debtor's collateral in return. Since Syron USD is over-collateralized with BTC, the value of the collateral exceeds the value of the loan. As a result, the liquidator, who repays the SYRON loan, earns a BTC surplus that represents a profit.
+**Good to know:** Liquidation in the context of Syron refers to the process of repaying a debtor's SYRON loan and receiving the debtor's collateral in return. Since Syron SUSD is over-collateralized with BTC, the value of the collateral exceeds the value of the loan. As a result, the liquidator, who repays the SYRON loan, earns a BTC surplus that represents a profit.
 {% endhint %}
 
-By understanding the liquidation process in Syron, you can better appreciate the mechanisms that ensure the stability and reliability of Syron USD as a stablecoin. Liquidation not only protects the system from depegging (i.e., SYRON losing its parity with the USD due to under-collateralized loans) but also provides financial opportunities for liquidators like you: ₿e Your ₿ank.
+By understanding the liquidation process in Syron, you can better appreciate the mechanisms that ensure the stability and reliability of Syron SUSD as a stablecoin. Liquidation not only protects the system from depegging (i.e., SYRON losing its parity with the USD due to under-collateralized loans) but also provides financial opportunities for liquidators like you: ₿e Your ₿ank.
 
 ### How to Liquidate an SDB
 

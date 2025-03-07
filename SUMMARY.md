@@ -1,6 +1,6 @@
 # Table of contents
 
-- [₿e Your ₿ank](README.md)
+- [Be Your Own ₿ank](README.md)
 
 ## INTRODUCTION
 
