@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Be Your Own ₿ank](README.md)
+- [Be Your Own ₿ank with TyronDAO](README.md)
 
 ## INTRODUCTION
 
@@ -13,8 +13,8 @@
 - [Minting](components/minting.md)
 - [Burning](components/burning.md)
 - [Liquidation](components/liquidation.md)
+- [ICPayments](components/icpayments.md)
 
 ## RESOURCES
 
-- [Launch dApp](https://tyron.io)
-- [Proof of Concept](https://github.com/txalkan/tyron-icp)
+- [Launch dApp](https://dapp.tyrondao.org)

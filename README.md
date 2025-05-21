@@ -1,21 +1,23 @@
-# Be Your Own ₿ank
+# Be Your Own ₿ank with TyronDAO
 
 <img src="./susd.png" style="width: 56%;">
 
-## What's Syron SUSD?
+## What is Syron SUSD?
 
-Syron SUSD is a Bitcoin-native stablecoin that runs on Bitcoin Layer 1 and integrates with the Internet Computer at the protocol level. It is designed to provide broader access to USD liquidity and decentralized finance (DeFi) while maintaining Bitcoin’s security and decentralization.
+Syron SUSD is a Bitcoin-native stablecoin that runs on Bitcoin mainnet and integrates with the Internet Computer at the protocol level. This groundbreaking "Chain Fusion" means your existing Bitcoin wallet is all you need to interact with Syron, acting as your Self-Sovereign Identity (SSI).
 
-As TyronDAO’s sovereign dollar, Syron enables capital-efficient Bitcoin loans while keeping BTC in a separate, auditable safety deposit box. This approach ensures users can access liquidity without sacrificing ownership or security.
+Syron is designed to provide broader access to USD liquidity and decentralized finance while maintaining Bitcoin’s security and decentralization.
 
-Being your own bank means you can leverage your Bitcoin (BTC) holdings to mint Syron and access USD-denominated liquidity without giving up control of your BTC. Empowering you with self-sovereign identity (SSI), Syron allows you to retain ownership of your Bitcoin while accessing instant USD liquidity whenever needed. It’s like having a modern-day gold standard—but with Bitcoin, a digital asset of limited supply, instead of gold.
+As Tyron's sovereign dollar, Syron aims to enable **capital-efficient Bitcoin loans** while keeping BTC in a separate, auditable **Safety Deposit ₿ox**. This approach ensures you can access liquidity without sacrificing ownership or security.
 
-TyronDAO ensures that your collateral is securely held within your control in your Safety Deposit ₿ox (SDB). This setup allows you to mint Syron dollars for various purposes, whether for spending or investment.
+Being your own ₿ank means you can leverage your bitcoin (BTC) holdings to mint Syron and access USD-denominated liquidity without giving up control of your BTC. Empowering you with SSI solutions, Syron lets you retain ownership of your BTC while accessing instant USD-denominated liquidity whenever needed. It’s like having a modern-day gold standard—but with bitcoin, a digital asset of limited supply, instead of gold.
 
-Syron’s first implementation as a Bitcoin-native stablecoin uses the Ordinals protocol to combine the stability of the United States dollar with Bitcoin’s growth potential, contributing to the creation of a more inclusive world with financial freedom.
+TyronDAO ensures that your collateral is securely held within your control in your Safety Deposit ₿ox. This unique setup allows you to mint Syron dollars for various purposes, whether for spending, investment, or even **acquiring more Bitcoin**.
+
+Syron’s first implementation as a Bitcoin-native stablecoin uses the Ordinals BRC-20 protocol to combine the stability of the United States dollar with Bitcoin’s growth potential, contributing to the creation of a more inclusive world with financial freedom.
 
 {% hint style="info" %}
-Picture this: you've got 1 BTC and want $20k to join a DEX as a liquidity provider. TyronDAO's stablecoin meta-protocol lets you keep your BTC safe and get dollars straight away. You retain control over your bitcoin's value, allowing it to appreciate while also having dollars accessible for any purpose and DeFi.
+Picture this: you've got 1 BTC and need $20,000 in liquidity. With Syron, you can keep your 1 BTC securely in your Safety Deposit ₿ox and instantly mint SUSD dollars. Use these SUSD to buy more BTC, make purchases, or explore other investments. You retain full control over your bitcoin's value, allowing it to appreciate while having accessible funds for immediate needs.
 {% endhint %}
 
-{% embed url="https://www.tyronDAO.org" %}
+{% embed url="https://tyrondao.org" %}
