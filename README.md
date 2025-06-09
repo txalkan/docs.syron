@@ -1,7 +1,5 @@
 # Be Your Own ₿ank with Tyron
 
-<img src="./susd.png" style="width: 56%;">
-
 ## What is Syron?
 
 Syron is a stablecoin metaprotocol running on Bitcoin mainnet and integrating with the Internet Computer at the protocol level. This groundbreaking "Chain Fusion" enables you to use your existing Bitcoin wallet as your Self-Sovereign Identity (SSI) — no extra wallets or bridges required.
@@ -16,8 +14,8 @@ TyronDAO ensures that your collateral remains fully under your control within yo
 
 Syron SUSD — the first implementation of the protocol — uses the Ordinals BRC-20 standard to combine the stability of the U.S. dollar with Bitcoin’s long-term potential, helping build a more inclusive financial system.
 
+<img src="./susd.png" style="width: 56%;">
+
 {% hint style="info" %}
 Imagine this: you have 1 BTC and need $20,000 in liquidity. With Syron, your bitcoin stays securely stored in a Safety Deposit ₿ox while you instantly mint SUSD. Use it to buy more BTC, make purchases, or explore new investments. You retain full control over your bitcoin's value, allowing it to appreciate while having accessible funds for immediate needs.
 {% endhint %}
-
-{% embed url="https://tyrondao.org" %}
