@@ -1,8 +1,14 @@
 # Safety Deposit ₿ox
 
-Syron's stablecoin management occurs within a user-owned Safety Deposit ₿ox (SDB). This smart contract wallet securely holds the collateral and serves as the hub for stablecoin minting, burning, and liquidation transactions.
+The Safety Deposit ₿ox (SDB) is a user-owned smart contract wallet at the core of Syron's stablecoin metaprotocol. It securely holds bitcoin (BTC) as collateral and facilitates key actions such as minting, burning, and liquidation of Syron stablecoins.
 
-An SDB autonomously tracks its user balance in a permissionless and trustless manner and is a Bitcoin-native wallet. Each SDB has its own Layer-1 address, allowing users to monitor their holdings at any time using their preferred Bitcoin block explorer. This native integration with Bitcoin ensures seamless interaction with the Bitcoin ecosystem.
+Each SDB operates autonomously and is both permissionless and trust-minimized. It functions as a native Bitcoin wallet, with a dedicated Bitcoin Layer 1 address, enabling users to verify their balances independently using any Bitcoin block explorer.
+
+This deep integration with Bitcoin ensures full transparency, real-time visibility, and seamless interoperability with the broader Bitcoin ecosystem.
+
+![](./syron_sdb.png)
+
+> _Interface: Safety Deposit ₿ox structure and interactions on the TyronDAO dApp_
 
 <!-- Minter SSI accounts (MISAs) are identified as smart contracts with the special `MINTER_ROLE` granted by the Access Control system. This allows for tailored minting functionality per MISA.
 

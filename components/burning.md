@@ -2,12 +2,14 @@
 
 ![](./syron_burning.png)
 
+> _Diagram: Redeeming BTC by depositing Syron stablecoins into a Safety Deposit ₿ox and withdrawing the bitcoin collateral_
+
 {% hint style="info" %}
-**Good to know:** Burning is the process of removing Syron US dollars from circulation according to the our stablecoin meta-protocol.
+**Good to know:** Burning is the process of permanently removing Syron stablecoins from circulation in accordance with the metaprotocol.
 {% endhint %}
 
-The purpose of burning SYRON dollars is for users to redeem their bitcoin (BTC) stored in their safety deposit boxes.
+Burning Syron stablecoins allows users to redeem the bitcoin (BTC) stored in their Safety Deposit ₿oxes (SDBs).
 
-To do so, a Syron deposit must be made into the user's SDB, and then proceed to call TyronDAO's canister on the Internet Computer to request the transfer of BTC from the SDB to the user's wallet.
+To initiate a burn, the user must first deposit the corresponding amount of Syron stablecoins into their SDB. Afterward, they execute a smart contract function via the TyronDAO dApp on the Internet Computer, which triggers the transfer of BTC from their SDB to their designated personal wallet.
 
-![](./syron_sdb.png)
+This process ensures full transparency and maintains the overcollateralized structure of the system.
