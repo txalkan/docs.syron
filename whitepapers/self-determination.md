@@ -1,6 +1,6 @@
 # The Crisis of Self-Determination in the Age of Centralized States & Currencies
 
-Xalkan Cabrapan Duarte · xalkan@tyronDAO.org
+Tyron Mapu Community Interest Company · cic@tyrondao.org
 
 ---
 
