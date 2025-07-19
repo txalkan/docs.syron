@@ -4,13 +4,13 @@
 
 Self-Sovereign Identity (SSI) gives users complete control over their digital identity and assets, including cryptocurrencies. In SSI, users manage their identity without relying on third parties, enhancing privacy and security.
 
-TyronDAO enables users to leverage their bitcoin holdings in a decentralized manner. This paradigm means that users control their digital assets without depending on centralized systems. The Syron metaprotocol implements this through a user-owned Safety Deposit ₿ox (SDB), where the BTC collateral is securely stored.
+TyronDAO enables users to leverage their Bitcoin holdings through decentralized means. This paradigm means that users control their digital assets without depending on centralized systems. The Syron metaprotocol implements this through a user-owned Safety Deposit ₿ox (SDB), where the BTC collateral is securely stored.
 
-In the Tyron dApp, each user's BTC collateral is securely locked in a separate SDB, guaranteeing sole management and control. Each SDB possesses its own Bitcoin address, with its information transparently available through any block explorer. This security measure stands in contrast to traditional systems, where intermediaries often have the ability to intervene.
+In the TyronDAO App, each user's BTC collateral is securely locked in a separate SDB, ensuring sole management and control. Each SDB possesses its own Bitcoin address, with its information transparently available through any block explorer. This security measure stands in contrast to traditional systems, where intermediaries often have the ability to intervene.
 
 To mint Syron stablecoins, users only need BTC collateral in their SDB. This process aligns with Tyron's goal of accessibility and user empowerment, enabling users to freely withdraw stablecoins while retaining control of their BTC collateral.
 
-However, if a user's BTC collateral falls below a certain threshold, then liquidation may occur. This mechanism maintains Syron's stability by ensuring adequate collateralization. TyronDAO aims to balance user autonomy with protocol stability, providing a secure and transparent platform for users to optimize their assets' capital efficiency and engage in decentralized finance.
+However, if a user's BTC collateral falls below a certain threshold, liquidation may occur. This mechanism maintains Syron's stability by ensuring adequate collateralization. TyronDAO aims to balance user autonomy with protocol stability, providing a secure and transparent platform for users to optimize their assets' capital efficiency and engage in decentralized finance.
 
 ## Bitcoin Network
 

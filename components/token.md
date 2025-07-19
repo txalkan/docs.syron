@@ -1,6 +1,6 @@
 # Token
 
-The Syron US dollar (SYRON) is a stablecoin crafted as a digital fungible token, seamlessly usable on the Bitcoin network, Internet Computer and other platforms.
+The Syron Dollar (SUSD) is a stablecoin crafted as a digital fungible token, seamlessly usable on the Bitcoin network, Internet Computer, and other platforms.
 
 {% hint style="info" %}
 **What is a fungible token?**
@@ -8,7 +8,7 @@ The Syron US dollar (SYRON) is a stablecoin crafted as a digital fungible token,
 A fungible token is interchangeable with others of the same type and value. Each unit is identical and can be traded on a one-to-one basis. Fungible tokens are divisible and lack uniqueness, making them uniform and easily exchangeable, like money.
 {% endhint %}
 
-The fungible token infrastructure is a crucial aspect of the stablecoin meta-protocol's core design. It's designed to operate seamlessly on Bitcoin and other blockchain protocols, offering improved scalability and accessibility.
+The fungible token infrastructure is a crucial aspect of the stablecoin protocol's core design. It's designed to operate seamlessly on Bitcoin and other blockchain protocols, offering improved scalability and accessibility.
 
 Tyron's Bitcoin-native stablecoins are premined and transferred to a Syron Bitcoin Minter (SBM). The balance of the SBM must not be considered in the circulating supply.
 

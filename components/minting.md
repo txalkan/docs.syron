@@ -4,7 +4,7 @@
 **Good to know:** Minting is the process of withdrawing Syron US dollars according to the Syron stablecoin meta-protocol.
 {% endhint %}
 
-Our innovative approach to Bitcoin-native stablecoins aims to empower users to unlock the potential of their BTC holdings in a self-sovereign identity (SSI) manner. In this context, SSI involves a decentralized identity paradigm where online data, such as digital money, is managed not in a centralized silo but using Distributed Ledger Technologies like Bitcoin and the Internet Computer. Additionally, in SSI, the subject of the identity, described by the digital identity, also serves as the controller, ensuring that no one else can claim control of the user’s funds.
+Our innovative approach to Bitcoin-native stablecoins aims to empower users to unlock the potential of their BTC holdings through Self-Sovereign Identity (SSI). In this context, SSI involves a decentralized identity paradigm where online data, such as digital money, is managed not in centralized silos but through Distributed Ledger Technologies like Bitcoin and the Internet Computer. Additionally, in SSI, the subject of the identity also serves as the controller, ensuring that no one else can claim control of the user’s funds.
 
 On Tyron, this paradigm is realized through safety deposit boxes, each independently holding the BTC collateral (one ₿ox per user). This setup ensures users maintain complete control over their assets without reliance on third parties.
 
@@ -53,7 +53,7 @@ To withdraw SYRON, users request a balance update and provide the ID of an inscr
 
 TyronDAO utilizes the Internet Computer to record ledger balances of BTC deposits and SYRON balances. In these ledgers, several accounts come into place:
 
-- Subaccount with nonce 1 for the bitcoin collateral and SYRON borrowed.
+- Subaccount with nonce 1 for the Bitcoin collateral and SYRON borrowed.
 - Subaccount with nonce 2 for dollars available for withdrawal (SYRON balance), and nonce 3 for SYRON dollars withdrawn as BRC-20 tokens.
 
 Additional subaccounts can be employed to account for withdrawals to other blockchain protocols like Bitcoin Runes and Ethereum. Our ledgers on ICP utilize the Syron minter's principal ID as the accounts' owner with subaccounts made out of the user's Bitcoin wallet and a specific nonce - as mentioned above.
