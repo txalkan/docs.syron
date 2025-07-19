@@ -16,6 +16,11 @@
 - [Liquidation](components/liquidation.md)
 - [ICPayments](components/icpayments.md)
 
+## LEGAL
+
+- [Terms of Service](legal/terms-of-service.md)
+- [Privacy Policy](legal/privacy-policy.md)
+
 ## INTERFACES
 
-- [TyronDAO dApp](https://dapp.tyrondao.org)
+- [Tyron App](https://app.tyrondao.org)
