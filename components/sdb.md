@@ -1,3 +1,6 @@
+> **TL;DR**  
+> A Safety Deposit ₿ox (SDB) is a user-owned smart contract wallet that securely holds BTC as collateral for minting, burning, and liquidating Syron stablecoins. It is fully transparent, permissionless, and integrated with the Bitcoin network for real-time verification.
+
 # Safety Deposit ₿ox
 
 The Safety Deposit ₿ox (SDB) is a user-owned smart contract wallet at the core of Syron's stablecoin metaprotocol. It securely holds Bitcoin (BTC) as collateral and facilitates key actions such as minting, burning, and liquidation of Syron stablecoins.

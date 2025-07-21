@@ -1,3 +1,6 @@
+> **TL;DR**  
+> Minting Syron stablecoins enables users to unlock the value of their BTC by depositing it as collateral in a Safety Deposit ₿ox. The process is decentralized, over-collateralized, and managed via the Internet Computer, ensuring users retain full control of their assets.
+
 # Minting
 
 {% hint style="info" %}

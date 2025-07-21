@@ -1,3 +1,6 @@
+> **TL;DR**  
+> Liquidation allows users to repay Syron loans and claim the BTC collateral from under-collateralized Safety Deposit Boxes. This process maintains system stability and offers profit opportunities for liquidators.
+
 # Liquidation
 
 {% hint style="info" %}

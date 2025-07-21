@@ -1,3 +1,6 @@
+> **TL;DR**  
+> Syron is built on the principles of self-sovereign identity, user autonomy, and Bitcoin-native security. It leverages decentralized technologies like ICP to give users full control over their assets, ensuring transparency, security, and compatibility with Bitcoin standards.
+
 # Design Principles
 
 ## Self-Sovereign Identity

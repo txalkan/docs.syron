@@ -1,3 +1,6 @@
+> **TL;DR**  
+> ICPayments enable fast, decentralized payments and swaps using Syron and Bitcoin. By integrating with the Internet Computer, it allows near-instant Syron transfers and direct BTC swaps, making Bitcoin practical for everyday transactions.
+
 # ICPayments: Bitcoin-Backed Payments & Swaps
 
 ICPayments represents a significant leap in leveraging Bitcoin for everyday transactions and asset management. Traditionally, Bitcoin's block confirmation times (around 10 minutes) have limited its practicality for quick payments and dynamic swaps. TyronDAO, through its deep integration with the Internet Computer, is working to overcome this challenge by enabling near-instant transfers of Syron SUSD and facilitating direct swaps for BTC.

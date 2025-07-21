@@ -1,3 +1,6 @@
+> **TL;DR**  
+> Syron stablecoins are fungible tokens that operate across Bitcoin, Internet Computer, and other blockchains. On Bitcoin, Syron follows the BRC-20 and Runes standards and is designed for seamless and accessible digital transactions. Scalability is achieved through an ICP solution using the ICRC1/2 token standard.
+
 # Token
 
 The Syron Dollar (SUSD) is a stablecoin crafted as a digital fungible token, seamlessly usable on the Bitcoin network, Internet Computer, and other platforms.

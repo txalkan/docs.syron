@@ -1,3 +1,6 @@
+> **TL;DR**  
+> Burning Syron stablecoins allows users to redeem their Bitcoin collateral by depositing the stablecoins into their Safety Deposit ₿ox (SDB) and executing a smart contract to withdraw BTC. This process permanently removes the stablecoins from circulation and maintains the system's overcollateralization.
+
 # Burning
 
 ![](./syron_burning.png)
