@@ -1,6 +1,6 @@
 # Table of contents
 
-- [Be Your Own ₿ank with Tyron](README.md)
+- [Be Your Own ₿ank](README.md)
 
 ## WHITEPAPERS
 
