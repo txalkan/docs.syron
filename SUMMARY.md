@@ -4,6 +4,8 @@
 
 ## WHITEPAPERS
 
+- [Syron: Bitcoin-Native Stablecoins for Self-Custodial Liquidity](whitepapers/syron-stablecoins.md)
+
 - [The Crisis of Self-Determination in the Age of Centralized States & Currencies](whitepapers/self-determination.md)
 
 ## COMPONENTS
