@@ -1,4 +1,4 @@
-# Be Your Own ₿ank with Tyron
+# Be Your Own ₿ank
 
 ## What is Syron?
 
