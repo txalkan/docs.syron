@@ -17,6 +17,7 @@
 - [Burning](components/burning.md)
 - [Liquidation](components/liquidation.md)
 - [ICPayments](components/icpayments.md)
+- [Deposit Runes](components/runes.md)
 
 ## LEGAL
 
