@@ -1,9 +1,9 @@
 # Syron: Bitcoin-Native Stablecoins for Self-Custodial Liquidity
 
-**Xalkan Duarte**, Founding Engineer · xalkan@tyrondao.org
+**Xalkan Duarte**, Founder · xalkan@tyrondao.org
 
 > **TL;DR**  
-> Syron is a Bitcoin-native metaprotocol that enables users to access USD liquidity without selling their BTC. Users deposit Bitcoin into self-custodial Safety Deposit ₿oxes and mint overcollateralized stablecoins (SUSD) available as BRC-20 and Runes tokens across Bitcoin Layer1. Built on Chain Fusion technology connecting Bitcoin Mainnet with the Internet Computer, Syron preserves complete user ownership while providing instant dollar-denominated liquidity. The protocol addresses the core Bitcoin holder dilemma: needing cash flow without breaking long-term BTC accumulation strategies. Currently live on Bitcoin mainnet with multi-chain token availability, Syron represents the first implementation of truly self-custodial Bitcoin-backed stablecoins with native mainnet integration.
+> Syron is a Bitcoin-native metaprotocol that enables users to access USD liquidity without selling their BTC. Users deposit Bitcoin into self-custodial Safety Deposit ₿oxes and mint overcollateralized stablecoins (SUSD) available as BRC-20 and Runes tokens across Bitcoin Layer1. Built on Chain Fusion technology connecting Bitcoin mainnet with the Internet Computer, Syron preserves complete user ownership while providing instant dollar-denominated liquidity. The protocol addresses the core Bitcoin holder dilemma: needing cash flow without breaking long-term BTC accumulation strategies. Currently testing on Bitcoin mainnet with multi-token availability, Syron represents the first implementation of truly self-custodial Bitcoin-backed stablecoins with native mainnet integration.
 
 ## Abstract
 
