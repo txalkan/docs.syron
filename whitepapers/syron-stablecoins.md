@@ -3,7 +3,7 @@
 **Xalkan Duarte**, Founding Engineer · xalkan@tyrondao.org
 
 > **TL;DR**  
-> Syron is a Bitcoin-native metaprotocol that enables users to access USD liquidity without selling their BTC. Users deposit Bitcoin into self-custodial Safety Deposit ₿oxes and mint overcollateralized stablecoins (SUSD) available as BRC-20, Runes, and ICRC-1 tokens across Bitcoin and Internet Computer ecosystems. Built on Chain Fusion technology connecting Bitcoin Layer 1 with the Internet Computer, Syron preserves complete user ownership while providing instant dollar-denominated liquidity. The protocol addresses the core Bitcoin holder dilemma: needing cash flow without breaking long-term BTC accumulation strategies. Currently live on Bitcoin mainnet with multi-chain token availability, Syron represents the first implementation of truly self-custodial Bitcoin-backed stablecoins with native mainnet integration.
+> Syron is a Bitcoin-native metaprotocol that enables users to access USD liquidity without selling their BTC. Users deposit Bitcoin into self-custodial Safety Deposit ₿oxes and mint overcollateralized stablecoins (SUSD) available as BRC-20 and Runes tokens across Bitcoin Layer1. Built on Chain Fusion technology connecting Bitcoin Mainnet with the Internet Computer, Syron preserves complete user ownership while providing instant dollar-denominated liquidity. The protocol addresses the core Bitcoin holder dilemma: needing cash flow without breaking long-term BTC accumulation strategies. Currently live on Bitcoin mainnet with multi-chain token availability, Syron represents the first implementation of truly self-custodial Bitcoin-backed stablecoins with native mainnet integration.
 
 ## Abstract
 
@@ -35,7 +35,7 @@ Syron introduces a new paradigm: Bitcoin-collateralized stablecoins that preserv
 - **Mint SUSD stablecoins** pegged to USD up to 66% of collateral value
 - **Maintain ownership** of Bitcoin throughout the loan period
 - **Access liquidity** for payments, investments, or operational needs
-- **Choose token standards** between BRC-20, Runes, and ICRC-1 formats
+- **Choose token standards** between BRC-20 and Runes formats
 
 This approach preserves Bitcoin's core value propositions—self-custody, censorship resistance, and monetary sovereignty—while solving the liquidity accessibility problem.
 
@@ -69,29 +69,23 @@ Syron leverages Chain Fusion technology to connect Bitcoin Layer 1 with Internet
 
 **Gasless Transactions:** Internet Computer's reverse gas model enables users to interact with Syron without holding additional tokens for transaction fees.
 
-### Triple Token Standard Implementation
+### Dual Token Standard Implementation
 
-Syron SUSD launches with support for BRC-20, Runes, and ICRC-1 token standards, providing users comprehensive choice across Bitcoin and Internet Computer ecosystems:
+Syron SUSD launches with support for BRC-20 and Runes token standards, providing users comprehensive choice across the Bitcoin ecosystem:
 
-**BRC-20 Format (SYRON):**
+**BRC-20 Format:**
 
 - Established ecosystem with existing wallet and exchange support
 - Proven infrastructure for Bitcoin-native token interactions
 - Broader liquidity venue availability
 
-**Runes Format (RUNE•DOLLAR):**
+**Runes Format:**
 
 - More efficient UTXO-based model with lower transaction costs
 - Future-oriented standard with enhanced technical capabilities
 - Reduced blockchain bloat through improved data handling
 
-**ICRC-1 Format (SUSD on ICP):**
-
-- Native Internet Computer integration for seamless DeFi interactions
-- Gasless transactions and instant settlement capabilities
-- Cross-chain compatibility enabling Bitcoin-ICP ecosystem bridging
-
-This triple implementation demonstrates Syron's multi-chain architecture while maintaining Bitcoin as the sole collateral asset. Users can choose their preferred token standard based on intended use cases, wallet compatibility, and ecosystem preferences.
+This dual implementation demonstrates Syron's advanced architecture while maintaining Bitcoin as the sole collateral asset. Users can choose their preferred token standard based on intended use cases, wallet compatibility, and personal preferences.
 
 ## Syron SUSD: Implementation and Use Cases
 
@@ -101,7 +95,7 @@ This triple implementation demonstrates Syron's multi-chain architecture while m
 2. **Bitcoin Deposit:** BTC is transferred to the user-controlled Safety Deposit ₿ox smart contract
 3. **Collateral Verification:** Chain Fusion confirms deposit and calculates available minting capacity
 4. **SUSD Generation:** Users mint up to 66% of collateral value in SUSD tokens (150% collateralization ratio)
-5. **Token Selection:** Choose between BRC-20 (SYRON), Runes (RUNE•DOLLAR), or ICRC-1 (SUSD) formats
+5. **Token Selection:** Choose between BRC-20 or Runes formats
 
 ### Redemption and Collateral Management
 
@@ -128,7 +122,7 @@ Syron is currently live in testing on Bitcoin Layer 1 with core functionality op
 **Available Features:**
 
 - Safety Deposit ₿ox creation and Bitcoin collateral deposits
-- SUSD minting in BRC-20 (SYRON), Runes (RUNE•DOLLAR), and ICRC-1 (SUSD) formats
+- SUSD minting in BRC-20 and Runes formats
 - Secure redemption mechanisms for Bitcoin collateral recovery
 - Gasless payment system via Internet Computer integration
 - Cross-chain SUSD utility across Bitcoin and ICP ecosystems
