@@ -1,113 +1,67 @@
-# Deposit Syron Runes Function Summary
+# Deposit Runes
 
-## Overview
+## What is a Runes Deposit?
 
-The `deposit_syron_runes` function is an async function that handles the deposit of Syron runes into the system. It processes UTXOs containing runes, validates deposits, and manages the transfer of runes to the minter while updating user balances.
+Depositing Runes allows you to transfer your Rune stablecoins into your Tyron account balance. Once deposited, you can use these tokens within the TyronDAO platform or withdraw them later.
 
-## Function Signature
+### Step 1: Send Runes
 
-```rust
-async fn deposit_syron_runes(args: GetBoxAddressArgs, fee: u64) -> Result<Vec<UtxoStatus>, UpdateBalanceError>
-```
+Send Rune stablecoins to your Safety Deposit ₿ox address (displayed in the interface). This is your personal, secure vault on the Bitcoin network.
 
-## Parameters
+![](./syron_sdb_addr.png)
 
-- `args: GetBoxAddressArgs` - Contains the SSI (Self-Sovereign Identity) and operation type
-- `fee: u64` - Fee amount for the transaction
+For this transfer, you can use any wallet that supports the Runes standard.
 
-## Key Functionality
+### Step 2: Confirm Rune Deposit
 
-### 1. Operation Validation
+Navigate to the DEPOSIT RUNES interface to view your pending deposits:
 
-- Verifies that `args.op` equals `SyronOperation::DepositSyron`
-- Returns an error if the operation is invalid
+![](./syron_deposit_runes.png)
 
-### 2. Account Setup
+Here you will see the status of your current deposits, which you need to confirm to add them to your account balance:
 
-- Calls `setup_ssi_account_and_guard()` to initialize the user's account and activate balance guard
-- Retrieves the Safety Deposit Box (SDB) address using `get_box_address()`
+![](./syron_confirm_deposit_runes.png)
 
-### 3. Network and Fee Configuration
+#### Stable Deposit
 
-- Fetches Bitcoin network configuration
-- Sets fee per byte based on the network
-- Defines constants:
-  - `cycles_cost`: 72,000,000
-  - `provider_id`: 0
-  - `treasury_fee`: 546 satoshis
-  - `stable_deposit`: 10,000,000 (0.1 syron)
+There is a minimum runes deposit that must remain in your Safety Deposit Box. Your credited amount will be your deposited runes minus the stable deposit.
 
-### 4. UTXO Processing
+- **Stable Deposit:** 0.1 SUSD
 
-- Retrieves all UTXOs from the SDB address
-- Filters for new UTXOs only (excludes previously used collateral)
-- Iterates through UTXOs to categorize them:
-  - **Sats UTXOs**: UTXOs with 0 runes balance
-  - **Runes UTXOs**: UTXOs containing runes
-- Calculates total runes deposit amount
+This minimum deposit is required for security measures related to how runes transactions work. When you redeem your BTC, this stable deposit will be burned permanently.
 
-### 5. Validation Checks
+![](./syron_stable_deposit_runes.png)
 
-- **No Runes Check**: If `runes_deposit == 0`, returns `NoNewUtxos` error with pending UTXOs
-- **Minimum Deposit**: Ensures runes deposit is at least `stable_deposit` (0.1 syron)
-- **Sufficient Funds**: Validates that BTC deposit + runes sats can cover treasury fee + outputs value (660 satoshis)
+#### Transaction Confirmation
 
-### 6. Balance Management
+To operate on Bitcoin Mainnet, certain fees apply as explained in the cost breakdown:
 
-- Deducts `stable_deposit` from total runes deposit
-- Credits runes deposit to user's pending balance (nonce 5) using `syron_runes_deposit()`
-- Handles errors by reverting the credit if needed
+![](./syron_finalize_deposit_runes.png)
 
-### 7. Runes Transfer
-
-- Sends runes back to the minter (burn operation) using `burn_p2wpkh_runes()`
-- If transfer fails:
-  - Reverts the pending balance credit
-  - Returns a `GenericError` with error code 904
-
-### 8. Final Balance Update
-
-- Calls `update_ssi_balance()` to move pending balance to available balance
-- Returns the result as `Vec<UtxoStatus>`
-
-## Error Handling
-
-The function handles various error scenarios:
-
-- Invalid operation type
-- Insufficient runes deposit
-- Insufficient funds for fees and outputs
-- Failed runes transfer to minter
-- Account setup failures
-
-## Key Dependencies
-
-- `bitcoin_wallet::burn_p2wpkh_runes()` - For burning runes
-- `update_balance::syron_runes_deposit()` - For managing runes deposits
-- `update_balance::update_ssi_balance()` - For final balance updates
-- `management::get_utxos()` - For retrieving UTXOs
-- `https::outcall::call_indexer_runes_balance()` - For checking runes balance
-
-## Return Value
-
-Returns `Result<Vec<UtxoStatus>, UpdateBalanceError>` where:
-
-- `Ok(Vec<UtxoStatus>)` - Successfully processed UTXOs
-- `Err(UpdateBalanceError)` - Various error conditions
-
-## Notes
-
-- The function implements a two-phase commit pattern for runes deposits
-- It maintains atomicity by reverting pending balances on failures
-- Uses nonce 5 for pending runes deposits and nonce 2 for available balances
-- Includes comprehensive logging for debugging and monitoring
-
-## Backend Code
-
-The complete implementation can be found at: [https://github.com/txalkan/tyron-icp/blob/48fbabcafc5a3b545f9ae65fc1efe0ef77ec179a/src/basic_bitcoin/src/lib.rs#L933](https://github.com/txalkan/tyron-icp/blob/48fbabcafc5a3b545f9ae65fc1efe0ef77ec179a/src/basic_bitcoin/src/lib.rs#L933)
+Transaction costs must be covered by your Safety Deposit Box balance. Therefore, Tyron guides you to ensure that there are sufficient funds to cover these fees.
 
 ## Runes Minter Address
 
-The runes minter address where runes are sent for burning: [bc1qhtux6m8zptg0qtcml8nap7te90epqmu8sag3du](https://mempool.space/address/bc1qhtux6m8zptg0qtcml8nap7te90epqmu8sag3du)
+There are two versions of the runes minter, with the following addresses:
 
-This address receives runes from the Safety Deposit Box (SDB), effectively burning them after the deposit process by calling `redeem_btc`.
+- [v1: bc1qhtux6m8zptg0qtcml8nap7te90epqmu8sag3du](https://mempool.space/address/bc1qhtux6m8zptg0qtcml8nap7te90epqmu8sag3du)
+
+- [v2: bc1qdqyd353q758qytkdxklx9uq8yn2gf98ll8hrlg](https://mempool.space/address/bc1qdqyd353q758qytkdxklx9uq8yn2gf98ll8hrlg)
+
+These addresses receive runes from Safety Deposit Boxes, effectively removing them from circulation.
+
+### Transaction Examples
+
+#### Withdrawing runes
+
+- [https://mempool.space/tx/24d66e77be26505729bb80d443456050a2a5efe8af5d185d90c77f183aa5e1cc](https://mempool.space/tx/24d66e77be26505729bb80d443456050a2a5efe8af5d185d90c77f183aa5e1cc)
+
+- [https://mempool.space/tx/fb7a30b17d779c372fc0caa758140dacbe47a56213b0d1e22f1651a086d50b62](https://mempool.space/tx/fb7a30b17d779c372fc0caa758140dacbe47a56213b0d1e22f1651a086d50b62)
+
+- With DAO fee: [https://mempool.space/tx/be3ac8b88b09c675296eda99d595387e06080d94f15fe337549cb2ca51ed659e](https://mempool.space/tx/be3ac8b88b09c675296eda99d595387e06080d94f15fe337549cb2ca51ed659e)
+
+#### Depositing runes
+
+- [https://mempool.space/tx/43efd3c9ecb3d07300757524c46a4f1b6b2ebf8d9b49e62fbb6f32c1e1f79343](https://mempool.space/tx/43efd3c9ecb3d07300757524c46a4f1b6b2ebf8d9b49e62fbb6f32c1e1f79343)
+
+- [https://mempool.space/tx/9ac589653415ffe96a5ce694a7f471591f44319cad7ce89e325a07eee043cfe6](https://mempool.space/tx/9ac589653415ffe96a5ce694a7f471591f44319cad7ce89e325a07eee043cfe6)
