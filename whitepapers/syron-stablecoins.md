@@ -88,19 +88,19 @@ This dual implementation demonstrates Syron's advanced architecture while mainta
 4. **SUSD Generation:** Users mint up to 66.67% of collateral value in SUSD tokens (150% collateralization ratio)
 5. **Token Selection:** Choose between the BRC-20 or Runes formats
 
-```mermaid
+{% mermaid %}
 sequenceDiagram
-  title Minting Process
-  participant User
-  participant Wallet
-  participant SafetyDepositBox as Safety Deposit ₿ox
-  participant Syron
-  User->>Wallet: Connect Bitcoin wallet
-  Wallet->>SafetyDepositBox: Create non-custodial ₿ox (Bitcoin L1 address)
-  User->>SafetyDepositBox: Deposit BTC collateral
-  SafetyDepositBox->>Syron: Proof of deposit
-  Syron->>Wallet: Mint SUSD (Runes/BRC-20)
-```
+title Minting Process
+participant User
+participant Wallet
+participant SafetyDepositBox as Safety Deposit ₿ox
+participant Syron
+User->>Wallet: Connect Bitcoin wallet
+Wallet->>SafetyDepositBox: Create non-custodial ₿ox (Bitcoin L1 address)
+User->>SafetyDepositBox: Deposit BTC collateral
+SafetyDepositBox->>Syron: Proof of deposit
+Syron->>Wallet: Mint SUSD (Runes/BRC-20)
+{% endmermaid %}
 
 ### Protocol Invariants & Parameters
 
