@@ -88,7 +88,7 @@ This dual implementation demonstrates Syron's advanced architecture while mainta
 4. **SUSD Generation:** Users mint up to 66.67% of collateral value in SUSD tokens (150% collateralization ratio)
 5. **Token Selection:** Choose between the BRC-20 or Runes formats
 
-{% mermaid %}
+```mermaid
 sequenceDiagram
 title Minting Process
 participant User
@@ -100,7 +100,7 @@ Wallet->>SafetyDepositBox: Create non-custodial ₿ox (Bitcoin L1 address)
 User->>SafetyDepositBox: Deposit BTC collateral
 SafetyDepositBox->>Syron: Proof of deposit
 Syron->>Wallet: Mint SUSD (Runes/BRC-20)
-{% endmermaid %}
+```
 
 ### Protocol Invariants & Parameters
 
@@ -109,10 +109,10 @@ Syron->>Wallet: Mint SUSD (Runes/BRC-20)
 Mathematical properties that must always hold true:
 
 - **No net SUSD mint at Tier-1 liquidation:**  
-  \(\Delta SUSD = -D\) (all outstanding debt is repaid and burned).
+  $$\Delta SUSD = -D$$ (all outstanding debt is repaid and burned).
 
 - **Tier-2 DAO takeover:**  
-  \(\Delta SUSD \leq 0\).  
+  $$\Delta SUSD \leq 0$$.  
   Even if the DAO mints SUSD to stabilize GCR, these tokens are minted internally and immediately burned against DAO-held debt — no circulating expansion occurs.
 
 - **Seized BTC locked until sale:**  
@@ -120,8 +120,8 @@ Mathematical properties that must always hold true:
 
 - **Global Collateral Ratio (GCR) floor:**  
   The Reserve Sell Module (RSM) only sells BTC when  
-  \(\text{GCR} \leq 140\%\).  
-  If \(\text{GCR} > 140\%\), no sales occur. Instead, the DAO mints SUSD internally and immediately repays/cancels DAO-held debt, restoring GCR without increasing circulating supply.
+  $$\text{GCR} \leq 140\%$$.  
+  If $$\text{GCR} > 140\%$$, no sales occur. Instead, the DAO mints SUSD internally and immediately repays/cancels DAO-held debt, restoring GCR without increasing circulating supply.
 
 <!-- - **Execution buffer:**
   Tier-2 executes only when
@@ -161,7 +161,7 @@ Two-tier, full-closeout liquidation design ensures deterministic thresholds and 
 
 **Tier-1 window:** Public liquidations are open while CR ∈ [118%, 120%] (no timer).
 
-> Note: **150% → 120%** corresponds to an exact 20% BTC price decline at constant debt, since \(1.20/1.50 = 0.80\) (i.e., BTC drops to 80% of its original value).
+> Note: **150% → 120%** corresponds to an exact 20% BTC price decline at constant debt, since $$1.20/1.50 = 0.80$$ (i.e., BTC drops to 80% of its original value).
 
 **Tiered liquidation flow**
 
@@ -187,7 +187,6 @@ flowchart TD
   style H fill:#e8ffe8,stroke:#00aa00
   style I fill:#ffe8e8,stroke:#ff4d4d
   style J fill:#e8ffe8,stroke:#00aa00
-  style K fill:#e8ffe8,stroke:#00aa00
 ```
 
 ### Oracle & Circuit Breakers
